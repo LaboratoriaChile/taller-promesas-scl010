@@ -65,7 +65,8 @@ const readFile = (fileName, type) => {
 //         console.log(err)
 //     })
 
-    // Promise.all([myFirstPromise, mySecondPromise, getData(url), readFile('./prueba/hola.md', 'utf-8')])
-    //     .then(response => {
-    //         console.log(response[1]+=9)
-    //     })
+    Promise.all([myFirstPromise, mySecondPromise, getData(url), readFile('./prueba/hola.md', 'utf-8')])
+        .then(responses => {
+            // console.log(response[1]+=9)
+            console.log(responses)
+        })
