@@ -1,0 +1,26 @@
+{
+  "name": "taller-promesas",
+  "version": "1.0.0",
+  "description": "taller promesas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaboratoriaChile/taller-promesas-scl010.git"
+  },
+  "keywords": [
+    "promises",
+    "javascript"
+  ],
+  "author": "laboratoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaboratoriaChile/taller-promesas-scl010/issues"
+  },
+  "homepage": "https://github.com/LaboratoriaChile/taller-promesas-scl010#readme",
+  "dependencies": {
+    "fetch": "^1.1.0"
+  }
+}
